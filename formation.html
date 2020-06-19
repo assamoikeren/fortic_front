@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>FORTISAC GROUP SARL</title>
+    <script src="https://kit.fontawesome.com/9805b0926f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/themify-icons/themify-icons.css">
+    <script src="https://kit.fontawesome.com/9805b0926f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <!-- barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top py-2 px-sm-5">
+        <div class="container">
+            <a class="navbar-brand" href="#">Fortisac</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-lg-4">
+                        <a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a>
+                    </li>
+                  <li class="nav-item mx-lg-4 ">
+                    <a class="nav-link" href="#">Formations</a>
+                  </li>
+                  <li class="nav-item mx-lg-4">
+                    <a class="nav-link" href="#">Cours</a>
+                  </li>
+                  <li class="nav-item mx-lg-4">
+                    <a class="nav-link boutton" href="#">S'inscrire</a>
+                  </li>
+                  <li class="nav-item mx-lg-4">
+                    <a class="nav-link boutton" href="#">Se connecter</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="row header-content">
+                <div class=" my-3 col-md-6 d-flex flex-column justify-content-center">
+                    <h1 class="text-white text-sm-end header-title">
+                        Découvrez nos formations diplômantes
+                    </h1>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="assets/img/office_work_.svg" width="600" height="500" class="img-fluid">
+                </div> 
+            </div>
+        </div>
+    </header>
+    <section class="details">
+        <div class="container py-4">
+            <div class="row" >
+                <div class="my-3 col-md-4 d-flex flex-row details-box pr-md-5">
+                    <i class="fas fa-tools"></i>
+                    <p class="ml-4 mb-0">Des projets concrets comme en entreprise.</p>
+                </div>
+                <div class="my-3 col-md-4 d-flex flex-row details-box pr-md-5" >
+                    <i class="fas fa-user-friends"></i>
+                    <p class="ml-4 mb-0 text-center">Un mentor expert dédié.</p>
+                </div>
+                <div class="my-3 col-md-4 d-flex flex-row details-box pr-md-5">
+                   <i class="fas fa-graduation-cap"></i>
+                    <p class="ml-4 mb-0">Un diplôme, un emploi garanti</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="container-fluid my-5">
+        <div class="container">
+            <p class="text-center my-5 py-3 h5">Dans quel domaine souhaitez-vous vous former ?</p>
+             <div class="row mt-5 pt-3">
+                <div class="col-md-6 col-lg-4 mb-5 ">
+                    <div class="member" onclick="newDoc()" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="imgBx">
+                            <i class="fas fa-satellite-dish"></i>
+                        </div>
+                        <div class="textBx text-center">
+                            <h2>Réseaux et sécurité informatique</h2>       
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="member" onclick="newDoc()" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="imgBx">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="textBx text-center">
+                            <h2>Base de données</h2>        
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5 ">
+                    <div class="member" onclick="newDoc()" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="imgBx">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="textBx text-center">
+                            <h2>Multimédia et arts du numérique</h2>        
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="member" onclick="newDoc()" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="imgBx">
+                            <i class="fas fa-mobile"></i>
+                        </div>
+                        <div class="textBx text-center">
+                            <h2>Developpements d'applications et e-services</h2>        
+                       </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5 ">
+                    <div class="member" onclick="newDoc()" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="imgBx">
+                            <i class="fas fa-search-dollar"></i>
+                        </div>
+                        <div class="textBx text-center">
+                            <h2>e-Commerce et Marketing Digital</h2>        
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="member" onclick="newDoc()" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <div class="imgBx">
+                            <i class="fas fa-assistive-listening-systems"></i>
+                        </div>
+                        <div class="textBx text-center">
+                            <h2>Communication Digitale</h2>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mxw800p text-center">
+                <h3 class="text-extra-small alt-font text-uppercase letter-spacing-3"> <a href="ff.html" class="arrow-move">Plus de formations <i class="ti-arrow-right"></i></a></h3>
+            </div>
+        </div>
+    </main>
+    <div class="search">
+        <div class="input-group shadow-sm border-0">
+           <input type="text" id="searchinput" class="form-control border-0" aria-label="Username" aria-describedby="basic-addon1">
+           <div class="input-group-prepend" onclick="showInput()">
+                   <span class="input-group-text bg-white border-0" id="basic-addon1"><i class="fas fa-search"></i></span>
+            </div>
+       </div>
+        <!-- <i class="fas fa-search"></i> -->
+    </div>
+    <script src="assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
