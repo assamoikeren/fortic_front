@@ -1,0 +1,718 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html
+{
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+body
+{
+	overflow-x: hidden;
+	transition: 0.5s ease-in-out;
+}
+
+nav
+{
+	border-bottom: none;
+	border-bottom: 0.5px solid #F4F4F4 !important;
+}
+
+a.navbar-brand
+{
+	font-weight: 700 !important;
+	color: #000 !important ;
+	text-decoration: none !important;
+	font-size: 1.5em !important;
+	text-transform: uppercase !important;
+	transition: 0.6s !important;
+}
+
+a.nav-link
+{
+	text-decoration: none;
+	color: #202020 !important;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 600;
+	transition: 0.6s;
+}
+
+a.nav-link:hover
+{
+	background-color: #0367D6 !important;
+	color: #fff !important;
+	border-radius: 3px;
+}
+
+.navbar-light .navbar-toggler
+{
+    border-color: #fff !important;
+    outline: none;
+}
+
+a.boutton
+{
+	border: 1px solid #0367D6 !important;
+	border-radius: 3px;
+}
+
+header
+{
+	background-color: #fff;
+	width: 100%;
+}
+
+.header-content .header-title
+{
+	font-size: 35px;
+	font-weight: 500;
+	color: #000 !important;
+}
+
+.header-content a
+{
+	align-self: start;
+	padding: 8px 32px;
+	font-weight: 500 !important;
+	text-transform: uppercase;
+	border: 2px solid #fff;
+	color: #fff !important;
+	border-radius: 15px;
+	background-color: transparent;
+	transition: background-color 0.2s, color 0.2s !important;
+}
+
+.header-content a:hover
+{
+    background-color: #fff;
+    color: #000 !important;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+.member
+{
+	position: relative;
+	background: #0367D6 !important;
+	border: 1px solid #dee2e6 !important;
+	border-color: rgba(255,255,255,.4) !important;
+	min-height: 280px;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: background 0.5s;
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.member .imgBx
+{
+	margin: 10px 0;
+}
+
+.member .imgBx i
+{
+	font-size: 80px;
+	color: rgba(255,255,255,1);
+	transition: color 1s; 
+}
+
+.member .textBx
+{
+	margin: 35px 0;
+}
+
+.member .textBx a
+{
+	font-size: 18px;
+	color: #fff;
+	transition: color 1s;
+	font-weight: 500;
+}
+
+.member .plus .btn-plus
+{   
+	display: block;
+	background-color: transparent;
+	text-decoration: none;
+	border: 2px solid #fff;
+	padding:3px 12px;
+	cursor: pointer;
+	color: #fff;
+	transition: background-color 1s, color 1s;	
+}
+
+.member:hover
+{	
+	box-shadow: none !important;
+}
+
+.member:hover .more
+{
+	left: 10px;
+}
+
+.member:hover .imgBx i
+{
+	color: rgba(255,255,255,1);
+}
+
+.member:hover .plus .btn-plus
+{
+	border: 2px solid #000;
+	color: #000;
+}
+
+.member:hover .plus .btn-plus:hover
+{
+	background-color: #000;
+	color: #fff;
+}
+
+.member:hover
+{	
+	box-shadow: none !important;
+}
+
+.member:hover .imgBx i
+{
+	color: rgba(255,255,255,1);
+}
+
+.member:hover .plus .btn-plus
+{
+	border: 2px solid #000;
+	color: #000;
+}
+
+.member:hover .plus .btn-plus:hover
+{
+	background-color: #000;
+	color: #fff;
+}
+
+a.arrow-move{
+	text-decoration: none;
+	color: #000 !important;
+	cursor: pointer;
+}
+
+a.arrow-move:hover i
+{
+position: relative;
+transition: left 5s ease-in-out;
+left: 13px;
+}
+
+.text-extra-small
+{
+	font-size: 11px;
+    line-height: 14px;
+}
+
+.alt-font
+{
+    font-weight: 500;
+}
+
+.details
+{
+	background-color: #0367D6;
+}
+
+.details-box i
+{
+	font-size: 24px;
+	color: #fff;
+}
+
+.details-box p
+{
+	font-weight: 500;
+	color: #fff;
+}
+
+div.divider-div
+{
+   position: relative !important;
+}
+
+div.divider-div hr
+{
+	position: absolute;
+	top: 17.5px;
+	left: 0;
+   	height: 1px;
+	margin: 0;
+	flex-shrink: 0;
+	border: none;
+	background-color: #e0e0e0;
+	width: 100%;
+}
+
+div.divider-div div button
+{  
+	position: relative;
+	z-index: 1 ;
+	font-size: 14px;
+	font-weight: 700;
+	color: #0367D6;
+	background:#fff;
+}
+
+div.divider-div div button:hover
+{  
+	border: 1px solid #0367D6;
+	color: #0367D6 !important;
+}
+
+.course
+{
+	min-height: 80vh;
+}
+
+div.search
+{   
+	position: fixed;
+	top: 30%;
+	right: 0;
+	z-index: 5;
+}
+
+div.search i
+{   
+	font-size: 14px;
+	color: #0367D6;
+	transition: 0.5s;
+}
+
+div.search:hover .input-group-text
+{   
+	background: #0367D6 !important;
+}
+
+div.search:hover i
+{   
+	color: #fff;
+}
+
+div.search .input-group-text
+{   
+	cursor: pointer;
+}
+
+#searchinput
+{   
+	display: none;
+	transition: 5s;
+}
+
+.form-control:focus
+{
+    box-shadow: none !important;
+}
+
+/*page details formation*/
+.content
+{		
+	width: 60%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.texte p,
+.texte ul li
+{
+	line-height: 1.625rem;
+}
+
+.texte .title
+{
+	font-size: 1.625rem;
+    line-height: 2.25rem;
+}
+
+.cours-card
+{
+	width: 100%;
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+}
+
+.cours-card::before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 150px;
+	width: 16px;
+	background: #0367D6;
+	opacity: 0.3;
+	border-
+	radius: .25rem 0 0 .25rem;
+}
+.cours-number
+{
+	position: absolute;
+	top: 5px;
+	left: 0
+	width: 40px;
+	background: #0367D6;
+	border-radius: 0 .65rem .65rem 0;
+	color: #fff;
+	font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+}
+
+.cours-details
+{
+	position: absolute;
+	width: 100%;
+	top: 55px;
+	left: 16px;
+}
+
+.cours-details .cours-title
+{
+	font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.625rem;
+}
+
+.cours-details .cours-title::first-letter
+{
+	text-transform: uppercase;
+}
+
+
+.cours-details .cours-heures
+{
+	font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.trait
+{
+	width: 85%;
+	margin: 0 auto;
+	border-left: 1px dashed rgba(3,103,214,0.5);
+}
+
+.cours-certification{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background: #0367D6;
+}
+.certification-content{
+	width: 85%;
+	margin: 0 auto;
+	color: #fff;
+}
+.certification-content i{
+	font-size: 35px;
+}
+
+.certification-content span,
+.certification-content p
+{
+	font-size: 1rem;
+	font-weight: 500;
+    letter-spacing: 1px
+} 
+.certification-content span{
+    line-height: 1.625rem;
+}
+.certification-content p{
+    line-height: 1.75rem;
+}
+
+.trait-details{
+	width: 100%;
+}
+.trait-details .iconeBx
+{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
+
+.border-purple
+{
+	border: 1px solid rgba(3,103,214,0.5);
+}
+
+.trait-details h6
+{	
+	font-size: 1rem;
+    line-height: 1.625rem;
+}
+
+ul.competences
+{
+	list-style: none;
+}
+
+ul.competences li
+{
+	font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin-bottom: 10px; 
+}
+
+ul.competences li::before
+{  
+  content: "\2022";  
+  color: #0367D6; 
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em; 
+}
+
+ul{
+	list-style: inside;
+}
+.start-btn{
+	background: #fff;
+	color: #000;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+@media screen and (max-width:450px){
+	.filter-item
+	{
+		padding: 1px !important;
+	}
+	.filter-item span {
+	    padding: 5px 10px !important;
+	    font-size: 11px;
+	}
+}
+
+@media screen and (max-width:576px){
+	main div.content{
+		width: 100% !important;
+	}
+	.header-title{
+		text-align: center;
+		font-size: 30px !important;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (min-width:576px) and (max-width: 720px){
+	.header-title{
+		text-align: center;
+	}
+	.go-up{
+		display: none;
+	}
+}
+
+@media screen and (min-width:576px) and (max-width: 960px){
+	main div.content{
+		width: 90% !important;
+	}
+}
+
+/* cours css */
+.coursBx{
+	position: relative;
+	height: 280px;
+	min-height: 300px;
+	background: #fff;
+	overflow-x: hidden; 
+}
+.coursBx:hover{
+	cursor: pointer;
+}
+
+.coursBx:hover .more{
+	left: 10px;
+}
+
+div.more
+{
+	position: absolute;
+	top: 10px;
+	left: -13%;
+	transition: left 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.more i
+{
+	font-size: 25px; 
+	color: #fff; 
+}
+
+.coursBx .iconBx{
+	height: 70%;
+	background: #0367D6;
+	border: 1px solid #dee2e6 !important;
+    border-color: rgba(255,255,255,.4) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coursBx .iconBx i{
+	font-size: 70px;
+	color: #fff; 
+}
+
+.coursBx .textBx{
+	height: 30%;
+	background: #fff;
+}
+
+.coursBx .textBx a{
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.4;
+	color: #000;
+}
+
+.filter
+{
+	max-width: 500px !important;
+	min-width: 300px !important;
+}
+
+.filter-item
+{
+	display: inline-block !important;
+	width: initial;
+	padding: 2px;
+	color: #0367D6; 
+	border-radius: 50rem; 
+	margin-bottom: 10px; 
+	background-image: linear-gradient(-90deg, #3E98FF, #0367D6);
+}
+
+.filter-item span
+{
+	padding: 3px 8px;
+	display: inline-block !important;
+	width: initial;
+	color: #000; 
+	border-radius: 50rem; 
+	background: #fff;
+	transition: all 0.3s;
+}
+
+.filter-item span:hover
+{
+	background-image: linear-gradient(-90deg, #3E98FF, #0367D6);
+	color: #fff;
+}
+
+.drop{
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    padding: 9px 16px;
+    color: #0367D6;
+    transition: all 0.3s;
+}
+
+.drop:hover{
+    background: rgba(3,103,214, .5);
+    color: #fff;
+}
+
+.btn-group button.btn {
+    font-weight: 700;
+    color: #000;
+    border: 2px solid #fff;
+}
+
+.btn-group button.btn:first-of-type,
+.btn-group button.btn:last-of-type
+{
+    border-radius: 0 !important;
+}
+.btn-group button.btn:hover{
+	 border: 2px solid #0367D6;
+    border-radius: 5px !important;
+}
+
+.color
+{
+    color: #0367D6 !important;
+}
+   
+.iconeBx-pdf{
+    background: red;
+    width: 25px !important;
+    height: 25px !important;
+    color: #fff !important;
+}
+
+.font-weight-700{
+    font-weight: 700;
+}
+
+.btn-group button.btn:focus {
+    box-shadow: unset;
+}
+
+.go-up
+{  
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background-color: #0367D6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+
+.go-up i
+{
+	color: #fff;
+	font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
